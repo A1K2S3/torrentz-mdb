@@ -1,0 +1,104 @@
+.c-pointer {
+  cursor: pointer;
+}
+.select-wrapper input.select-dropdown {
+  margin-bottom: 0px !important;
+}
+.danger-color {
+  background-color: #c00 !important;
+}
+.table thead th {
+  border-bottom: 0px !important;
+}
+table tbody tr td {
+  font-weight: normal;
+}
+.collapsible li i {
+  margin-right: 1em;
+}
+.hover-light:hover {
+  background-color: #f8f9fa;
+}
+
+input[type=text]:focus:not([readonly]) + label {
+  color: #c00!important;
+}
+
+input[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #c00!important;
+  box-shadow: 0 .5px 0 0 #c00!important;
+}
+
+#slide-out input[type=text]:focus:not([readonly]) + label {
+  color: #fff!important;
+}
+
+#slide-out input[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #fff!important;
+  box-shadow: 0 1px 0 0 #fff!important;
+}
+.v-align{
+  display: flex!important;
+  align-items: center!important;
+}
+@media (min-width: 0px) {
+  .grid-th,
+  .grid-td,
+  .select-wrapper input.select-dropdown,
+  .search-result-count {
+    font-size: 0.8em;
+    font-weight: normal;
+  }
+}
+.dropdown-item .fal,
+.dropdown-item .fab {
+  max-width: 10px;
+  margin-right: 1em;
+}
+.nav-link .fal,
+.nav-link .fas {
+  margin: 0em 0.25em !important;
+}
+.text-white::placeholder {
+  color: #fff;
+}
+@media (min-width: 0px) {
+  .grid-th,
+  .grid-td,
+  .sidenav-list li .a,
+  .select-wrapper input.select-dropdown,
+  .search-result-count {
+    font-size: 0.76em;
+    font-weight: normal;
+  }
+}
+@media (min-width: 768px) {
+  .grid-th,
+  .grid-td,
+  .sidenav-list li .a,
+  .select-wrapper input.select-dropdown,
+  .search-result-count {
+    font-size: 0.8em;
+    font-weight: normal;
+  }
+}
+@media (min-width: 992px) {
+  .grid-th,
+  .grid-td,
+  .sidenav-list li .a,
+  .select-wrapper input.select-dropdown,
+  .search-result-count {
+    font-size: 0.9em !important;
+    font-weight: normal;
+  }
+}
+@media (min-width: 1200px) {
+  .grid-th,
+  .grid-td,
+  .sidenav-list li .a,
+  .select-wrapper input.select-dropdown,
+  .search-result-count {
+    font-size: 0.95em !important;
+    font-weight: normal;
+  }
+}
